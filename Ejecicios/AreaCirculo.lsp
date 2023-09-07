@@ -1,0 +1,6 @@
+(defun areaCirculo()
+	(princ "Dame radio: ")
+	(setq num1 (read))
+	(setq resultado (* 3.14 (* num1 num1)))
+	(write resultado)
+)

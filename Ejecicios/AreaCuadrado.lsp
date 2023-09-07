@@ -1,0 +1,6 @@
+(defun areaCuadrado()
+	(princ "Dame perimetro: ")
+	(setq num1 (read))
+	(setq resultado (* num1 num1))
+	(write resultado)
+)
