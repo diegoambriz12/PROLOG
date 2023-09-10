@@ -1,0 +1,8 @@
+(defun areaRombo()
+	(princ "Dame D: ")
+	(setq num1 (read))
+    (princ "Dame d: ")
+	(setq num2 (read))
+	(setq resultado (/ (* num1 num2) 2 ))
+	(write resultado)
+)

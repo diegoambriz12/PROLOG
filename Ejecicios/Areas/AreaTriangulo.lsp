@@ -1,0 +1,8 @@
+(defun areaTriangulo()
+	(princ "Dame Base: ")
+	(setq num1 (read))
+    (princ "Dame Altura: ")
+	(setq num2 (read))
+	(setq resultado (/ (* num1 num2) 2 ))
+	(write resultado)
+)
