@@ -1,0 +1,8 @@
+(defun areaCoronacircular()
+	(princ "Dame RadioAdentro: ")
+	(setq num1 (read))
+    (princ "Dame RadioAfuera: ")
+	(setq num2 (read))
+	(setq resultado (* 3.14 (- (* num2 num2) (* num1 num1))))
+	(write resultado)
+)
