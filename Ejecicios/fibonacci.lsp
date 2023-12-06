@@ -1,0 +1,5 @@
+(defun fibo(x)
+    (if(or (= x 0)(= x 1))
+        (+ (fibo(- x 1))(fibo(- x 2)))
+        )
+))

@@ -1,0 +1,41 @@
+La lógica de predicados es una forma de representar afirmaciones utilizando símbolos y cuantificadores para expresar relaciones entre objetos y propiedades. Aquí tienes las traducciones de tus afirmaciones en lógica de predicados:
+
+1. Ningún emperador es odontólogo.
+   Traducción: ∀x (Emperador(x) → ¬Odontólogo(x))
+
+2. Algunos gatos no saben silbar.
+   Traducción: ∃x (Gato(x) ∧ ¬SabeSilbar(x))
+
+3. Hay hombres que ni son libres ni sienten ningún deseo de serlo.
+   Traducción: ∃x (Hombre(x) ∧ ¬Libre(x) ∧ ¬SienteDeseoSerLibre(x))
+
+4. Todos los perros del vecindario muerden a algún cartero.
+   Traducción: ∀x (Perro(x) → ∃y (Cartero(y) ∧ Muerde(x, y)))
+
+5. Hay un cartero al que lo muerden todos los perros.
+   Traducción: ∃x (Cartero(x) ∧ ∀y (Perro(y) → Muerde(y, x)))
+
+6. Todos los perros.
+   Traducción: ∀x (Perro(x))
+
+7. Hay un perro que se muerde a sí mismo.
+   Traducción: ∃x (Perro(x) ∧ SeMuerdeA(x, x))
+
+8. Todos los gatos son mamíferos.
+   Traducción: ∀x (Gato(x) → Mamífero(x))
+
+9. Todo el mundo quiere a alguien.
+   Traducción: ∀x ∃y (Persona(x) → Quiere(x, y))
+
+10. Existe alguien a quien todo el mundo quiere.
+    Traducción: ∃x ∀y (Persona(y) → Quiere(y, x))
+
+En estas traducciones, los símbolos utilizados son:
+- ∀: Cuantificador universal (para "todos").
+- ∃: Cuantificador existencial (para "algunos" o "hay").
+- ¬: Negación.
+- →: Implicación.
+- ∧: Conjunción (y).
+- ∨: Disyunción (o).
+- SeMuerdeA(x, y): Predicado que indica que x muerde a y.
+- Los nombres de las propiedades y los individuos se mantienen sin cambios.
